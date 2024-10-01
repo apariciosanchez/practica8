@@ -1,0 +1,54 @@
+
+#contenedor{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: darkturquoise;
+}
+
+#nuevaTarea{
+    width: 70;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#agregarBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#listasTareas{
+    list-style: none;
+    padding: 0;
+}
+
+.tarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.eliminarBtn{
+    background-color: brown;
+    color: white;
+}
+
+.modificarBtn{
+    background-color: aqua;
+    color: white;
+}
